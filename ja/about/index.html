@@ -1,5 +1,5 @@
   <!DOCTYPE html>
-  <html lang="zh-CN"  
+  <html lang="ja"  
       data-theme-mode="auto"
   >
   <head>
@@ -18,16 +18,18 @@
 <link rel="stylesheet" href="/css/loader.css">
 
     <meta name="description" content="这里是hee1310的博客！！ 一个普通的学生👨‍🎓 是个INFP小蝴蝶🦋 存在于世间各个角落✈ 博客基于 Hexo &amp; Reimu 主题 图库均来源网络，侵删  关于一切其实这是个开箱即用的主题，但我还是花费了大量的时间去部署该博客😭😭或许以后不会去发表文章甚至维护博客，但它至少存在了^_^临近开学了，我还有大量作业没写，算是对我的一种惩罚吧😢       🕹️">
-<meta property="og:type" content="article">
+<meta property="og:type" content="website">
 <meta property="og:title" content="关于我的一切">
-<meta property="og:url" content="https://hee1310.github.io/2026/03/01/aboutme/index.html">
+<meta property="og:url" content="https://hee1310.github.io/ja/about/index.html">
 <meta property="og:site_name" content="Hexo Blogs">
 <meta property="og:description" content="这里是hee1310的博客！！ 一个普通的学生👨‍🎓 是个INFP小蝴蝶🦋 存在于世间各个角落✈ 博客基于 Hexo &amp; Reimu 主题 图库均来源网络，侵删  关于一切其实这是个开箱即用的主题，但我还是花费了大量的时间去部署该博客😭😭或许以后不会去发表文章甚至维护博客，但它至少存在了^_^临近开学了，我还有大量作业没写，算是对我的一种惩罚吧😢       🕹️">
-<meta property="og:locale" content="zh_CN">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://hee1310.github.io/images/common/banner.webp">
 <meta property="article:published_time" content="2026-03-01T00:05:47.000Z">
-<meta property="article:modified_time" content="2026-02-28T17:19:11.962Z">
+<meta property="article:modified_time" content="2026-02-28T17:19:09.140Z">
 <meta property="article:author" content="hee1310">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://hee1310.github.io/images/common/banner.webp">
     <link rel="shortcut icon" href="/images/favicon.ico">
   
 <link rel="stylesheet" href="/css/style.css">
@@ -94,46 +96,46 @@
       <div id="wrap">
         <div id="header-nav">
   <nav id="main-nav" aria-label="Primary navigation">
-        <a class="main-nav-link-wrap" href="/">
+        <a class="main-nav-link-wrap" href="/ja/">
             <div class="main-nav-icon icon rotate">
                 &#xe62b;
             </div>
-          <span class="main-nav-link">首页</span>
+          <span class="main-nav-link">ホーム</span>
         </span>
-        <a class="main-nav-link-wrap" href="/archives">
+        <a class="main-nav-link-wrap" href="/ja/archives">
             <div class="main-nav-icon icon rotate">
                 &#xe62b;
             </div>
-          <span class="main-nav-link">归档</span>
+          <span class="main-nav-link">アーカイブ</span>
         </span>
-        <a class="main-nav-link-wrap" href="/about">
+        <a class="main-nav-link-wrap" href="/ja/about">
             <div class="main-nav-icon icon rotate">
                 &#xe62b;
             </div>
-          <span class="main-nav-link">关于</span>
+          <span class="main-nav-link">プロフィール</span>
         </span>
-        <a class="main-nav-link-wrap" href="/friend">
+        <a class="main-nav-link-wrap" href="/ja/friend">
             <div class="main-nav-icon icon rotate">
                 &#xe62b;
             </div>
-          <span class="main-nav-link">友链</span>
+          <span class="main-nav-link">フレンド</span>
         </span>
     <a id="main-nav-toggle" class="nav-icon" aria-label="Toggle navigation" role="button"></a>
   </nav>
   <nav id="sub-nav" aria-label="Secondary navigation">
-      <a id="nav-search-btn" class="nav-icon popup-trigger" title="搜索" aria-label="搜索"></a>
+      <a id="nav-search-btn" class="nav-icon popup-trigger" title="検索" aria-label="検索"></a>
   </nav>
     <nav id="i18n-nav" aria-label="Language selection">
       <div class="custom-dropdown">
         <div class="select-selected" id="select-selected" role="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Language menu">
           <span id="nav-language-btn" class="nav-icon" style="padding: 0 20px 0 0"></span>
-          <span id="selected-lang">简体中文</span>
+          <span id="selected-lang">日本語</span>
         </div>
         <ul class="select-items" id="select-items" role="listbox" aria-label="Languages">
-            <li data-value="zh-CN" role="option" class="selected" aria-selected="true">简体中文</li>
+            <li data-value="zh-CN" role="option" aria-selected="false">简体中文</li>
             <li data-value="en" role="option" aria-selected="false">English</li>
             <li data-value="zh-TW" role="option" aria-selected="false">正體中文</li>
-            <li data-value="ja" role="option" aria-selected="false">日本語</li>
+            <li data-value="ja" role="option" class="selected" aria-selected="true">日本語</li>
         </ul>
       </div>
       <script>
@@ -151,10 +153,10 @@
         selectOptions.forEach((item) => {
           item.addEventListener("click", () => {
             const langMap = {};
-              langMap['zh-CN'] = '/2026/03/01/aboutme/';
-              langMap['en'] = '/en/2026/03/01/aboutme/';
-              langMap['zh-TW'] = '/zh-TW/2026/03/01/aboutme/';
-              langMap['ja'] = '/ja/2026/03/01/aboutme/';
+              langMap['zh-CN'] = '/about/';
+              langMap['en'] = '/en/about/';
+              langMap['zh-TW'] = '/zh-TW/about/';
+              langMap['ja'] = '/ja/about/';
             selectedLang.textContent = item.textContent;
             selectItems.classList.remove("show");
             selectOptions.forEach((option) => {
@@ -178,9 +180,9 @@
   </a>
 </div>
 <header id="header" aria-label="Site header">
-        <picture>
-        </picture>
-          <img  fetchpriority="high" src="/images/common/banner.webp" alt="关于我的一切">
+      <picture>
+      </picture>
+        <img  fetchpriority="high" src="/images/common/banner.webp" alt="关于我的一切">
   <div id="header-outer">
     <div id="header-title">
           <span id="logo">
@@ -194,7 +196,7 @@
 
         <div id="content" aria-label="Page content" class="sidebar-left"  >
           <aside id="sidebar" aria-label="Sidebar">
-  <div class="sidebar-wrapper-container sticky">
+  <div class="sidebar-wrapper-container ">
       <meting-js
         theme="var(--color-link)"
         id="12504771257"
@@ -213,27 +215,22 @@
       ></meting-js>
   <div class="sidebar-wrapper">
     <div class="sidebar-wrap" data-aos="fade-up">
-          <div class="sidebar-toc-sidebar"><h3 class="toc-title">文章目录</h3>
-<div class="sidebar-toc-wrapper toc-div-class" >
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%99%E9%87%8C%E6%98%AFhee1310%E7%9A%84%E5%8D%9A%E5%AE%A2%EF%BC%81%EF%BC%81"><span class="toc-number">1.</span> <span class="toc-text">这里是hee1310的博客！！</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B3%E4%BA%8E%E4%B8%80%E5%88%87"><span class="toc-number">2.</span> <span class="toc-text">关于一切</span></a></li></ol>
-</div>
-</div>
-          <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
+        <div class="sidebar-author">
   <img data-src="/avatar/avatar.webp" data-sizes="auto" alt="hee1310" class="lazyload">
   <div class="sidebar-author-name">hee1310</div>
   <div class="sidebar-description"></div>
 </div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
-    <div>文章</div>
+    <div>投稿</div>
     <div class="sidebar-state-number">1</div>
   </div>
   <div class="sidebar-state-category">
-    <div>分类</div>
+    <div>カテゴリー</div>
     <div class="sidebar-state-number">0</div>
   </div>
   <div class="sidebar-state-tag">
-    <div>标签</div>
+    <div>タグ</div>
     <div class="sidebar-state-number">0</div>
   </div>
 </div>
@@ -247,39 +244,35 @@
 </div>
 <div class="sidebar-menu">
       <div class="sidebar-menu-link-wrap">
-        <a class="sidebar-menu-link-dummy" href="/" aria-label="首页"></a>
+        <a class="sidebar-menu-link-dummy" href="/ja/" aria-label="ホーム"></a>
           <div class="sidebar-menu-icon icon rotate">
               &#xe62b;
           </div>
-        <div class="sidebar-menu-link">首页</div>
+        <div class="sidebar-menu-link">ホーム</div>
       </div>
       <div class="sidebar-menu-link-wrap">
-        <a class="sidebar-menu-link-dummy" href="/archives" aria-label="归档"></a>
+        <a class="sidebar-menu-link-dummy" href="/ja/archives" aria-label="アーカイブ"></a>
           <div class="sidebar-menu-icon icon rotate">
               &#xe62b;
           </div>
-        <div class="sidebar-menu-link">归档</div>
+        <div class="sidebar-menu-link">アーカイブ</div>
       </div>
       <div class="sidebar-menu-link-wrap">
-        <a class="sidebar-menu-link-dummy" href="/about" aria-label="关于"></a>
+        <a class="sidebar-menu-link-dummy" href="/ja/about" aria-label="プロフィール"></a>
           <div class="sidebar-menu-icon icon rotate">
               &#xe62b;
           </div>
-        <div class="sidebar-menu-link">关于</div>
+        <div class="sidebar-menu-link">プロフィール</div>
       </div>
       <div class="sidebar-menu-link-wrap">
-        <a class="sidebar-menu-link-dummy" href="/friend" aria-label="友链"></a>
+        <a class="sidebar-menu-link-dummy" href="/ja/friend" aria-label="フレンド"></a>
           <div class="sidebar-menu-icon icon rotate">
               &#xe62b;
           </div>
-        <div class="sidebar-menu-link">友链</div>
+        <div class="sidebar-menu-link">フレンド</div>
       </div>
 </div>
-</div>
-          <div class="sidebar-btn-wrapper" style="position:static">
-            <div class="sidebar-toc-btn current"></div>
-            <div class="sidebar-common-btn"></div>
-          </div>
+
     </div>
   </div>
   <div class="sidebar-widget">
@@ -287,7 +280,7 @@
   </div>
 </aside>
 
-          <section id="main" aria-label="Main content"><article id="post-aboutme" class="h-entry article" itemscope itemtype="https://schema.org/BlogPosting">
+          <section id="main" aria-label="Main content"><article id="page-" class="h-entry article" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-inner" data-aos="fade-up">
     <div class="article-meta">
       <div class="article-date">
@@ -357,10 +350,10 @@ rollTagRoulette(); // 页面加载时自动触发一次滚动
         <div class="sponsor-wrapper">
   <div class="sponsor-button">
       <div class="sponsor-icon rotate"></div>
-    <div class="sponsor-title">赞助</div>
+    <div class="sponsor-title">スポンサー</div>
       <div class="sponsor-icon rotate"></div>
   </div>
-  <div class="sponsor-tip">请作者喝杯咖啡吧</div>
+  <div class="sponsor-tip">コーヒーを買ってください</div>
     <div class="sponsor-qr">
         <div class="sponsor-qr-image-wrapper">
           <img src="/images/sponsor/wechat.png" alt=微信 width="200" />
@@ -369,23 +362,23 @@ rollTagRoulette(); // 页面加载时自动触发一次滚动
     </div>
 </div>
         <div class="share-wrapper">
-    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhee1310.github.io%2F2026%2F03%2F01%2Faboutme%2F" target="_blank" rel="noopener noreferrer" title="关于我的一切">
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhee1310.github.io%2Fabout%2Findex.html" target="_blank" rel="noopener noreferrer" title="关于我的一切">
       <div class="share-icon icon icon-facebook">
       </div>
     </a>
-    <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fhee1310.github.io%2F2026%2F03%2F01%2Faboutme%2F&amp;text=%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E4%B8%80%E5%88%87&amp;via=https%3A%2F%2Fhee1310.github.io" target="_blank" rel="noopener noreferrer" title="关于我的一切">
+    <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fhee1310.github.io%2Fabout%2Findex.html&amp;text=%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E4%B8%80%E5%88%87&amp;via=https%3A%2F%2Fhee1310.github.io" target="_blank" rel="noopener noreferrer" title="关于我的一切">
       <div class="share-icon icon icon-twitter">
       </div>
     </a>
-    <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fhee1310.github.io%2F2026%2F03%2F01%2Faboutme%2F&amp;title=%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E4%B8%80%E5%88%87&amp;summary=%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E4%B8%80%E5%88%87&amp;mini=true&amp;ro=true" target="_blank" rel="noopener noreferrer" title="关于我的一切">
+    <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fhee1310.github.io%2Fabout%2Findex.html&amp;title=%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E4%B8%80%E5%88%87&amp;summary=%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E4%B8%80%E5%88%87&amp;mini=true&amp;ro=true" target="_blank" rel="noopener noreferrer" title="关于我的一切">
       <div class="share-icon icon icon-linkedin">
       </div>
     </a>
-    <a href="https://www.reddit.com/submit?url=https%3A%2F%2Fhee1310.github.io%2F2026%2F03%2F01%2Faboutme%2F&amp;title=%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E4%B8%80%E5%88%87" target="_blank" rel="noopener noreferrer" title="关于我的一切">
+    <a href="https://www.reddit.com/submit?url=https%3A%2F%2Fhee1310.github.io%2Fabout%2Findex.html&amp;title=%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E4%B8%80%E5%88%87" target="_blank" rel="noopener noreferrer" title="关于我的一切">
       <div class="share-icon icon icon-reddit">
       </div>
     </a>
-    <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fhee1310.github.io%2F2026%2F03%2F01%2Faboutme%2F&amp;appkey=&amp;title=%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E4%B8%80%E5%88%87&amp;pic=&amp;ralateUid=" target="_blank" rel="noopener noreferrer" title="关于我的一切">
+    <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fhee1310.github.io%2Fabout%2Findex.html&amp;appkey=&amp;title=%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E4%B8%80%E5%88%87&amp;pic=&amp;ralateUid=" target="_blank" rel="noopener noreferrer" title="关于我的一切">
       <div class="share-icon icon icon-weibo">
       </div>
     </a>
@@ -437,7 +430,7 @@ rollTagRoulette(); // 页面加载时自动触发一次滚动
       hee1310
     </div>
       <div>
-        基于&nbsp;<a href="https://hexo.io/" rel="noopener nofollow noreferrer" target="_blank">Hexo</a>&nbsp;
+        Powered by&nbsp;<a href="https://hexo.io/" rel="noopener nofollow noreferrer" target="_blank">Hexo</a>&nbsp;
         Theme.<a href="https://github.com/D-Sketon/hexo-theme-reimu" rel="noopener nofollow noreferrer" target="_blank">Reimu</a>
       </div>
       <div>
@@ -449,10 +442,10 @@ rollTagRoulette(); // 页面加载时自动触发一次滚动
       </div>
       <div>
         <span class="icon-eye"></span>
-        <span id="busuanzi_container_site_pv">总访问量&nbsp;<span id="busuanzi_value_site_pv"></span></span>
+        <span id="busuanzi_container_site_pv">総閲覧数&nbsp;<span id="busuanzi_value_site_pv"></span></span>
         &nbsp;|&nbsp;
         <span class="icon-user"></span>
-        <span id="busuanzi_container_site_uv">总访客量&nbsp;<span id="busuanzi_value_site_uv"></span></span>
+        <span id="busuanzi_container_site_uv">総閲覧者数&nbsp;<span id="busuanzi_value_site_uv"></span></span>
       </div>
   </div>
 </footer>
@@ -465,27 +458,22 @@ rollTagRoulette(); // 页面加载时自动触发一次滚动
       </div>
       <nav id="mobile-nav" aria-label="Mobile navigation">
   <div class="sidebar-wrap">
-        <div class="sidebar-toc-sidebar"><h3 class="toc-title">文章目录</h3>
-<div class="sidebar-toc-wrapper toc-div-class" >
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%99%E9%87%8C%E6%98%AFhee1310%E7%9A%84%E5%8D%9A%E5%AE%A2%EF%BC%81%EF%BC%81"><span class="toc-number">1.</span> <span class="toc-text">这里是hee1310的博客！！</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B3%E4%BA%8E%E4%B8%80%E5%88%87"><span class="toc-number">2.</span> <span class="toc-text">关于一切</span></a></li></ol>
-</div>
-</div>
-        <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
+      <div class="sidebar-author">
   <img data-src="/avatar/avatar.webp" data-sizes="auto" alt="hee1310" class="lazyload">
   <div class="sidebar-author-name">hee1310</div>
   <div class="sidebar-description"></div>
 </div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
-    <div>文章</div>
+    <div>投稿</div>
     <div class="sidebar-state-number">1</div>
   </div>
   <div class="sidebar-state-category">
-    <div>分类</div>
+    <div>カテゴリー</div>
     <div class="sidebar-state-number">0</div>
   </div>
   <div class="sidebar-state-tag">
-    <div>标签</div>
+    <div>タグ</div>
     <div class="sidebar-state-number">0</div>
   </div>
 </div>
@@ -499,40 +487,36 @@ rollTagRoulette(); // 页面加载时自动触发一次滚动
 </div>
 <div class="sidebar-menu">
       <div class="sidebar-menu-link-wrap">
-        <a class="sidebar-menu-link-dummy" href="/" aria-label="首页"></a>
+        <a class="sidebar-menu-link-dummy" href="/ja/" aria-label="ホーム"></a>
           <div class="sidebar-menu-icon icon rotate">
               &#xe62b;
           </div>
-        <div class="sidebar-menu-link">首页</div>
+        <div class="sidebar-menu-link">ホーム</div>
       </div>
       <div class="sidebar-menu-link-wrap">
-        <a class="sidebar-menu-link-dummy" href="/archives" aria-label="归档"></a>
+        <a class="sidebar-menu-link-dummy" href="/ja/archives" aria-label="アーカイブ"></a>
           <div class="sidebar-menu-icon icon rotate">
               &#xe62b;
           </div>
-        <div class="sidebar-menu-link">归档</div>
+        <div class="sidebar-menu-link">アーカイブ</div>
       </div>
       <div class="sidebar-menu-link-wrap">
-        <a class="sidebar-menu-link-dummy" href="/about" aria-label="关于"></a>
+        <a class="sidebar-menu-link-dummy" href="/ja/about" aria-label="プロフィール"></a>
           <div class="sidebar-menu-icon icon rotate">
               &#xe62b;
           </div>
-        <div class="sidebar-menu-link">关于</div>
+        <div class="sidebar-menu-link">プロフィール</div>
       </div>
       <div class="sidebar-menu-link-wrap">
-        <a class="sidebar-menu-link-dummy" href="/friend" aria-label="友链"></a>
+        <a class="sidebar-menu-link-dummy" href="/ja/friend" aria-label="フレンド"></a>
           <div class="sidebar-menu-icon icon rotate">
               &#xe62b;
           </div>
-        <div class="sidebar-menu-link">友链</div>
+        <div class="sidebar-menu-link">フレンド</div>
       </div>
 </div>
-</div>
+
   </div>
-      <div class="sidebar-btn-wrapper">
-        <div class="sidebar-toc-btn current"></div>
-        <div class="sidebar-common-btn"></div>
-      </div>
 </nav>
 
     </div>
@@ -620,12 +604,12 @@ rollTagRoulette(); // 页面加载时自动触发一次滚动
         window.REIMU_POST = {
           author: "hee1310",
           title: "关于我的一切",
-          url: "https://hee1310.github.io/2026/03/01/aboutme/",
+          url: "https://hee1310.github.io/about/index.html",
           excerpt: "",
           description: "",
           stripContent: "这里是hee1310的博客！！ 一个普通的学生👨‍🎓 是个INFP小蝴蝶🦋 存在于世间各个角落✈ 博客基于 Hexo &amp;amp; Reimu 主题 图库均来源网络，侵删  关于一切其实这是个开箱即用的主题，但我还是花费了大量的时间去部署该博客😭😭或许以后不会去发表文章甚至维护博客，但它至少存在了^_^临近开学了，我还有大量作业没写，算是对我的一种惩罚吧😢       🕹️        var rollTagRoulette = () =&gt; {   var tags = &#34;记忆衰退",
           date: "Sun Mar 01 2026 00:05:47 GMT+0000",
-          updated: "Sat Feb 28 2026 17:19:11 GMT+0000",
+          updated: "Sat Feb 28 2026 17:19:09 GMT+0000",
           cover: "/images/common/banner.webp",
         };
       </script>
