@@ -46,9 +46,9 @@
   --cursor-default: url("../images/cursor/reimu-cursor-default.png"), auto;
   --cursor-pointer: url("../images/cursor/reimu-cursor-pointer.png"), pointer;
   --cursor-text: url("../images/cursor/reimu-cursor-text.png"), text;
-  --footer-icon: url("../images/taichi.png");
-  --sponsor-icon: url("../images/taichi.png");
-  --top-icon: url("../images/taichi.png");
+  --footer-icon: url("../images/loading/taichi.png");
+  --sponsor-icon: url("../images/loading/taichi.png");
+  --top-icon: url("../images/loading/taichi.png");
   --shadow-meta: 0 0 5px 2px var(--color-meta-shadow);
   --shadow-meta-hover: 0 0 6px 4px var(--color-meta-shadow);
   --shadow-card: 0 0 10px 2px var(--color-hover-shadow);
