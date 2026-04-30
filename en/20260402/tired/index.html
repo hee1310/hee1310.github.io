@@ -565,7 +565,12 @@
             <div id="reimu-hits"></div>
             <div id="reimu-pagination" class="reimu-pagination"></div>
           </div>
-          <img class="reimu-bg" src="/images/reimu.png" loading="lazy" decoding="async" fetchpriority="low"/>
+          
+          <!-- ✅ 修改点1：替换图片路径 + ✅ 修改点2：添加居中样式 -->
+          <img class="reimu-bg" 
+               src="/images/search_bg/full_lain.png" 
+               style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 100vw; max-height: 100vh; width: 1920px; height: 1080px; object-fit: contain; z-index: -1;" 
+               loading="lazy" decoding="async" fetchpriority="low"/>
         </div>
       </div>
     
